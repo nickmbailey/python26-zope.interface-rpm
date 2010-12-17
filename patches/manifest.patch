@@ -1,0 +1,5 @@
+--- a/MANIFEST.in	1970-01-01 00:00:00.000000000 +0000
++++ b/MANIFEST.in	2010-12-17 17:25:43.000000000 +0000
+@@ -0,0 +1,2 @@
++include CHANGES.txt
++include src/zope/interface/*
