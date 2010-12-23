@@ -1,5 +1,7 @@
 --- a/MANIFEST.in	1970-01-01 00:00:00.000000000 +0000
 +++ b/MANIFEST.in	2010-12-17 17:25:43.000000000 +0000
-@@ -0,0 +1,2 @@
+@@ -0,0 +1,4 @@
 +include CHANGES.txt
++include LICENSE
++include PKG-INFO
 +include src/zope/interface/*
