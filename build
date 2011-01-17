@@ -27,7 +27,8 @@ python2.6 setup.py bdist_rpm \
         --dist-dir="$CUR_DIR" \
         --release="$RELEASE" \
         --packager="$PACKAGER" \
-        --doc-files="$DOC_FILES"
+        --doc-files="$DOC_FILES" \
+        --build-requires="$BUILD_REQUIRES"
 cd ..
 
 rm -r "$CUR_DIR/$NAME"
